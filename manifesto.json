@@ -1,0 +1,49 @@
+{
+  "sistema": "Claude Assistente Visum",
+  "atualizado_em": "2026-08-12",
+  "base_url": "https://kauewalter.com.br/visum/",
+  "roteador": {
+    "id": "ROTEADOR_MESTRE",
+    "versao": "0.3",
+    "url": "https://kauewalter.com.br/visum/VISUM_ROTEADOR_MESTRE_v0.3.md",
+    "nota": "Colado no campo de instrucoes do projeto, nao vai na Base de Conhecimento."
+  },
+  "arquivos": [
+    {
+      "id": "GUIA_ClienteProjeto",
+      "tipo": "GUIA",
+      "versao": "0.1",
+      "url": "https://kauewalter.com.br/visum/VISUM_GUIA_ClienteProjeto_v0.1.md",
+      "descricao": "Como criar e manter os registros de cliente e de projeto.",
+      "obrigatorio_para": [
+        "Diretor",
+        "Gerente",
+        "Arquiteto",
+        "Consultor Funcional",
+        "Consultor Desenvolvedor",
+        "Comercial"
+      ]
+    },
+    {
+      "id": "GUIA_Pessoas",
+      "tipo": "GUIA",
+      "versao": "0.1",
+      "url": "https://kauewalter.com.br/visum/VISUM_GUIA_Pessoas_v0.1.md",
+      "descricao": "Como manter o registro do time, objetivos do semestre e acompanhamento de 1:1.",
+      "obrigatorio_para": [
+        "Diretor",
+        "Gerente"
+      ],
+      "restricao": "Instalar apenas em Projeto de Lideranca. Nao pode coexistir com modulos client-facing."
+    }
+  ],
+  "modulos_planejados": [
+    "MODULO_3P",
+    "MODULO_Atas",
+    "MODULO_Pessoas",
+    "MODULO_OnboardingConta",
+    "MODULO_Farm",
+    "MODULO_USBDD",
+    "MODULO_Documentacao"
+  ]
+}
