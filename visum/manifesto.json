@@ -27,14 +27,14 @@
     {
       "id": "GUIA_Pessoas",
       "tipo": "GUIA",
-      "versao": "0.1",
-      "url": "https://kauewalter.com.br/visum/VISUM_GUIA_Pessoas_v0.1.md",
+      "versao": "0.2",
+      "url": "https://kauewalter.com.br/visum/VISUM_GUIA_Pessoas_v0.2.md",
       "descricao": "Como manter o registro do time, objetivos do semestre e acompanhamento de 1:1.",
       "obrigatorio_para": [
         "Diretor",
         "Gerente"
       ],
-      "restricao": "Instalar apenas em Projeto de Lideranca. Nao pode coexistir com modulos client-facing."
+      "restricao": "Este guia pode ser instalado em qualquer projeto. Os arquivos de registro VISUM_TIME_, VISUM_OBJETIVOS_ e VISUM_1A1_ vivem apenas em Projeto de Lideranca e nao podem coexistir com geracao de material de cliente."
     }
   ],
   "modulos_planejados": [
