@@ -12,8 +12,8 @@
     {
       "id": "GUIA_ClienteProjeto",
       "tipo": "GUIA",
-      "versao": "0.1",
-      "url": "https://kauewalter.com.br/visum/VISUM_GUIA_ClienteProjeto_v0.1.md",
+      "versao": "0.2",
+      "url": "https://kauewalter.com.br/visum/VISUM_GUIA_ClienteProjeto_v0.2.md",
       "descricao": "Como criar e manter os registros de cliente e de projeto.",
       "obrigatorio_para": [
         "Diretor",
