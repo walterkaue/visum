@@ -1,12 +1,12 @@
 {
   "sistema": "Claude Assistente Visum",
-  "atualizado_em": "2026-08-12T22:30:00-03:00",
-  "publicacao": 4,
+  "atualizado_em": "2026-08-12T23:30:00-03:00",
+  "publicacao": 5,
   "base_url": "https://kauewalter.com.br/visum/",
   "roteador": {
     "id": "ROTEADOR_MESTRE",
-    "versao": "0.4",
-    "url": "https://kauewalter.com.br/visum/VISUM_ROTEADOR_MESTRE_v0.4.md",
+    "versao": "0.5",
+    "url": "https://kauewalter.com.br/visum/VISUM_ROTEADOR_MESTRE_v0.5.md",
     "nota": "Colado no campo de instrucoes do projeto, nao vai na Base de Conhecimento."
   },
   "arquivos": [
