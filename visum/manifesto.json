@@ -1,6 +1,7 @@
 {
   "sistema": "Claude Assistente Visum",
-  "atualizado_em": "2026-08-12",
+  "atualizado_em": "2026-08-12T21:00:00-03:00",
+  "publicacao": 3,
   "base_url": "https://kauewalter.com.br/visum/",
   "roteador": {
     "id": "ROTEADOR_MESTRE",
