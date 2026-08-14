@@ -1,7 +1,7 @@
 {
   "sistema": "Claude Assistente Visum",
-  "atualizado_em": "2026-08-14T19:00:00-03:00",
-  "publicacao": 7,
+  "atualizado_em": "2026-08-14T16:00:00-03:00",
+  "publicacao": 8,
   "base_url": "https://kauewalter.com.br/visum/",
   "base_url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/",
   "roteador": {
@@ -9,93 +9,112 @@
     "versao": "0.7",
     "url": "https://kauewalter.com.br/visum/VISUM_ROTEADOR_MESTRE_v0.7.md",
     "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/VISUM_ROTEADOR_MESTRE_v0.7.md",
-    "nota": "Colado no campo de instrucoes do projeto, nao vai na Base de Conhecimento. Nao ha mecanismo que detecte defasagem alem da autoconferencia do proprio roteador."
+    "nota": "Colado no campo de instrucoes do projeto, nao vai na Base de Conhecimento. Nao ha mecanismo que detecte defasagem alem da autoconferencia do proprio roteador. A v1.0 existe em desenvolvimento local e nao esta publicada: ela sobe junto da migracao para o dominio Visum."
   },
   "arquivos": [
     {
       "id": "GUIA_ClienteProjeto",
       "tipo": "GUIA",
       "versao": "0.3",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/VISUM_GUIA_ClienteProjeto_v0.3.md",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/VISUM_GUIA_ClienteProjeto_v0.3.md",
       "descricao": "Como criar e manter os registros de cliente e de projeto.",
-      "obrigatorio_para": ["Diretor","Gerente","Arquiteto","Consultor Funcional","Consultor Desenvolvedor","Comercial"]
+      "obrigatorio_para": ["Diretor","Gerente","Arquiteto","Consultor Funcional","Consultor Desenvolvedor","Comercial"],
+      "finalidades": ["entrega"]
     },
     {
       "id": "GUIA_Pessoas",
       "tipo": "GUIA",
       "versao": "0.2",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/VISUM_GUIA_Pessoas_v0.2.md",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/VISUM_GUIA_Pessoas_v0.2.md",
       "descricao": "Como manter o registro do time, objetivos do semestre e acompanhamento de 1:1.",
       "obrigatorio_para": ["Diretor","Gerente"],
+      "finalidades": ["lideranca"],
       "restricao": "Este guia pode ser instalado em qualquer projeto. Os arquivos de registro VISUM_TIME_, VISUM_OBJETIVOS_ e VISUM_1A1_ vivem apenas em Projeto de Lideranca e nao podem coexistir com geracao de material de cliente."
     },
     {
       "id": "MODULO_3P",
       "tipo": "MODULO",
       "versao": "2.0",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/VISUM_MODULO_3P_v2.0.md",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/VISUM_MODULO_3P_v2.0.md",
       "descricao": "Procedimento do status semanal 3 Ps: planilha, PPTs, calculo de cores e checkpoint.",
       "obrigatorio_para": ["Gerente"],
+      "finalidades": ["entrega"],
       "requer": {"TEMPLATE_3P_Insumo": "1.5"}
     },
     {
       "id": "TEMPLATE_3P_Insumo",
       "tipo": "TEMPLATE",
       "versao": "1.5",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/VISUM_TEMPLATE_3P_Insumo_v1.5.md",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/VISUM_TEMPLATE_3P_Insumo_v1.5.md",
       "descricao": "Bloco de insumo do status semanal 3 Ps, preenchido pela pessoa e colado no chat.",
       "obrigatorio_para": ["Gerente"],
+      "finalidades": ["entrega"],
       "requer": {"MODULO_3P": "2.0"}
     },
     {
       "id": "MODELO_3P_Planilha",
       "tipo": "ATIVO",
       "versao": "1.0",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/modelo_status_3P_planilha.xlsx",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/modelo_status_3P_planilha.xlsx",
       "descricao": "Modelo da planilha de status. A aba MODELO e duplicada a cada projeto e nunca preenchida.",
-      "obrigatorio_para": ["Gerente"]
+      "obrigatorio_para": ["Gerente"],
+      "finalidades": ["entrega"]
     },
     {
       "id": "MODELO_3P_Apresentacao",
       "tipo": "ATIVO",
       "versao": "1.0",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/modelo_status_3P_apresentacao.pdf",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/modelo_status_3P_apresentacao.pdf",
       "descricao": "Modelo dos quatro slides do PPT de status.",
-      "obrigatorio_para": ["Gerente"]
+      "obrigatorio_para": ["Gerente"],
+      "finalidades": ["entrega"]
     },
     {
       "id": "ATIVO_Logo",
       "tipo": "ATIVO",
       "versao": "1.0",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/Logo_Visum.png",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/Logo_Visum.png",
       "descricao": "Logo Visum usada no slide de status.",
-      "obrigatorio_para": ["Gerente"]
+      "obrigatorio_para": ["Gerente"],
+      "finalidades": ["entrega"]
     },
     {
       "id": "ATIVO_FundoCapa",
       "tipo": "ATIVO",
       "versao": "1.0",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/Fundo_Capa_Visum.png",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/Fundo_Capa_Visum.png",
       "descricao": "Fundo da capa do PPT.",
-      "obrigatorio_para": ["Gerente"]
+      "obrigatorio_para": ["Gerente"],
+      "finalidades": ["entrega"]
     },
     {
       "id": "ATIVO_FundoEncerramento",
       "tipo": "ATIVO",
       "versao": "1.0",
+      "origem": "dominio",
       "url": "https://kauewalter.com.br/visum/Fundo_Encerramento_Visum.png",
       "url_espelho": "https://raw.githubusercontent.com/walterkaue/visum/refs/heads/main/visum/Fundo_Encerramento_Visum.png",
       "descricao": "Fundo do slide de fechamento do PPT.",
-      "obrigatorio_para": ["Gerente"]
+      "obrigatorio_para": ["Gerente"],
+      "finalidades": ["entrega"]
     }
   ],
-  "nota_backlog": "O backlog de modulos vive em VISUM_BACKLOG_Modulos, arquivo local, nao publicado. O campo modulos_planejados foi removido na publicacao 7 para nao existirem duas listas do mesmo backlog."
+  "nota_backlog": "O backlog de modulos vive em VISUM_BACKLOG_Modulos, arquivo local, nao publicado.",
+  "nota_finalidade": "Os campos origem e finalidades entraram na publicacao 8. A lista fechada de finalidades vive no roteador e nao e repetida aqui, para nao existirem duas listas da mesma coisa. Arquivo sem o campo origem e tratado como dominio."
 }
